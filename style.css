@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #e8e6e7;
+}
+
+header{
+    padding: 20px 70px;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.nav .logo{
+    width: 50px;       
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;  
+}
+
+.nav li a{
+    color: white;
+    transition: all ease-in-out .5s;
+}
+
+
+.nav li a:hover{
+    color: #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.nav .check{
+    color: #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 7rem;
+}
+
+.main-text img{
+    width: 15rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-text h3{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-text p{
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.main-text h6{
+    color: #999;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+.main-text .btn{
+    padding: 10px 25px;
+    background: #0071e3;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.5rem;
+    margin: transparent;
+    transition: all .5s;
+    outline: none;
+    border: none;
+}
+
+.main-text .btn:hover{
+    opacity: 80%;
+}
+
+.main-text .text{
+    font-size: 1rem;
+    color: #444;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-text .content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-text .content span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 1px 1px #888;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.main-text .content span:hover{
+    opacity: 80%;
+}
+
+#green{
+    background:#384937;
+}
+
+#pink{
+    background:#f8ddd6 ;
+}
+
+#blue{
+    background: #225f7e ;
+}
+
+#black{
+    background: #192028 ;
+}
+
+#white{
+    background: #f7f2ee ;
+}
+
+#red{
+    background: #ae0617;
+}
+
+.main-img{
+    transition: all 1s ease;
+    z-index: 100;
+}
+
+.main-img img{
+    width: 450px;
+    margin-top: 20px;
+    transform: rotate(-7deg);
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #455c42;
+    clip-path: circle(800px at right 1000px);
+}
